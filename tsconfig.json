@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // cambiamos la especificacion ES de la antigua a una mas actual
+    "outDir": "./dist", // le decimos donde se va a generar el archivos transpilado a js
+    "strict": true,
+    "noEmitOnError": true //permite que no se generen archivos si hay errores al momento de compilacion
+  }
+}
